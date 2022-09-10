@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  overflow: hidden;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  min-height: 92vh;
+  font-size: 5rem;
+}
+.Home {
+  background: #ee0979; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff6a00,
+    #ee0979
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff6a00,
+    #ee0979
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Blog {
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.About {
+  background: #396afc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Services {
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Contact {
+  background: #00f260; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0575e6,
+    #00f260
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0575e6,
+    #00f260
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
